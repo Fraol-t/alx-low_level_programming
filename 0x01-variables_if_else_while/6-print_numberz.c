@@ -1,22 +1,17 @@
 #include <stdio.h>
 
-/**
- * main - Entry point
- *
- * Description: Prints all single-digit numbers of base 10.
- *
- * Return: Always 0 (Success)
- */
 int main(void)
 {
-    char digit = '0';
-
-    while (digit <= '9')
-    {
-        putchar(digit);
-        digit++;
-    }
-
+    putchar('0');
+    putchar('1');
+    putchar('2');
+    putchar('3');
+    putchar('4');
+    putchar('5');
+    putchar('6');
+    putchar('7');
+    putchar('8');
+    putchar('9');
     putchar('\n');
 
     return (0);
