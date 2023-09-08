@@ -3,28 +3,29 @@
 /**
  * main - Entry point
  *
- * Description: Prints the lowercase and uppercase alphabets followed by a new line.
+ * Description: Prints the lowercase and uppercase alphabets
+ * followed by a new line.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-    char lowercase = 'a';
-    char uppercase = 'A';
+	char lowercase = 'a';
+	char uppercase = 'A';
 
-    while (lowercase <= 'z')
-    {
-        putchar(lowercase);
-        lowercase++;
-    }
+	while (lowercase <= 'z')
+	{
+		putchar(lowercase);
+		lowercase++;
+	}
 
-    while (uppercase <= 'Z')
-    {
-        putchar(uppercase);
-        uppercase++;
-    }
+	while (uppercase <= 'Z')
+	{
+		putchar(uppercase);
+		uppercase++;
+	}
 
-    putchar('\n');
+	putchar('\n');
 
-    return (0);
+	return (0);
 }
