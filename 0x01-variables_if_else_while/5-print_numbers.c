@@ -1,12 +1,21 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Description: Prints all single-digit numbers of base 10 starting from 0,
+ * followed by a new line.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-    int digit;
+    int digit = 0;
 
-    for (digit = 0; digit <= 9; digit++)
+    while (digit <= 9)
     {
-        putchar(digit + '0');  // Convert the digit to its character representation
+        putchar(digit + '0'); /* Convert the digit to its character representation */
+        digit++;
     }
 
     putchar('\n');
